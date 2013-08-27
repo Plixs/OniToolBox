@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960638FE17CCCA78005482B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960638FD17CCCA78005482B0 /* UIKit.framework */; };
+		9606390017CCCA78005482B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960638FF17CCCA78005482B0 /* Foundation.framework */; };
+		9606390217CCCA78005482B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9606390117CCCA78005482B0 /* CoreGraphics.framework */; };
+		9606390817CCCA78005482B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9606390617CCCA78005482B0 /* InfoPlist.strings */; };
+		9606390A17CCCA78005482B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606390917CCCA78005482B0 /* main.m */; };
+		9606390E17CCCA78005482B0 /* GAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606390D17CCCA78005482B0 /* GAppDelegate.m */; };
+		9606391017CCCA78005482B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9606390F17CCCA78005482B0 /* Default.png */; };
+		9606391217CCCA78005482B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9606391117CCCA78005482B0 /* Default@2x.png */; };
+		9606391417CCCA78005482B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9606391317CCCA78005482B0 /* Default-568h@2x.png */; };
+		9606391D17CCCB71005482B0 /* GRootNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606391C17CCCB71005482B0 /* GRootNavController.m */; };
+		9606392217CCCD22005482B0 /* GMainControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606392017CCCD22005482B0 /* GMainControllerViewController.m */; };
+		9606392317CCCD22005482B0 /* GMainControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606392117CCCD22005482B0 /* GMainControllerViewController.xib */; };
+		9606392717CCCDB1005482B0 /* GFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606392517CCCDB1005482B0 /* GFirstViewController.m */; };
+		9606392817CCCDB1005482B0 /* GFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606392617CCCDB1005482B0 /* GFirstViewController.xib */; };
+		9606392C17CCCDD4005482B0 /* GPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606392A17CCCDD4005482B0 /* GPresentViewController.m */; };
+		9606392D17CCCDD4005482B0 /* GPresentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606392B17CCCDD4005482B0 /* GPresentViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		960638FA17CCCA78005482B0 /* NavAppLoseBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavAppLoseBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960638FD17CCCA78005482B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		960638FF17CCCA78005482B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9606390117CCCA78005482B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9606390517CCCA78005482B0 /* NavAppLoseBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavAppLoseBar-Info.plist"; sourceTree = "<group>"; };
+		9606390717CCCA78005482B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9606390917CCCA78005482B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9606390B17CCCA78005482B0 /* NavAppLoseBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavAppLoseBar-Prefix.pch"; sourceTree = "<group>"; };
+		9606390C17CCCA78005482B0 /* GAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAppDelegate.h; sourceTree = "<group>"; };
+		9606390D17CCCA78005482B0 /* GAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAppDelegate.m; sourceTree = "<group>"; };
+		9606390F17CCCA78005482B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9606391117CCCA78005482B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9606391317CCCA78005482B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9606391B17CCCB71005482B0 /* GRootNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRootNavController.h; sourceTree = "<group>"; };
+		9606391C17CCCB71005482B0 /* GRootNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRootNavController.m; sourceTree = "<group>"; };
+		9606391F17CCCD22005482B0 /* GMainControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMainControllerViewController.h; sourceTree = "<group>"; };
+		9606392017CCCD22005482B0 /* GMainControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMainControllerViewController.m; sourceTree = "<group>"; };
+		9606392117CCCD22005482B0 /* GMainControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMainControllerViewController.xib; sourceTree = "<group>"; };
+		9606392417CCCDB1005482B0 /* GFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFirstViewController.h; sourceTree = "<group>"; };
+		9606392517CCCDB1005482B0 /* GFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFirstViewController.m; sourceTree = "<group>"; };
+		9606392617CCCDB1005482B0 /* GFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GFirstViewController.xib; sourceTree = "<group>"; };
+		9606392917CCCDD4005482B0 /* GPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPresentViewController.h; sourceTree = "<group>"; };
+		9606392A17CCCDD4005482B0 /* GPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPresentViewController.m; sourceTree = "<group>"; };
+		9606392B17CCCDD4005482B0 /* GPresentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPresentViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960638F717CCCA78005482B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960638FE17CCCA78005482B0 /* UIKit.framework in Frameworks */,
+				9606390017CCCA78005482B0 /* Foundation.framework in Frameworks */,
+				9606390217CCCA78005482B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960638F117CCCA78005482B0 = {
+			isa = PBXGroup;
+			children = (
+				9606390317CCCA78005482B0 /* NavAppLoseBar */,
+				960638FC17CCCA78005482B0 /* Frameworks */,
+				960638FB17CCCA78005482B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960638FB17CCCA78005482B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960638FA17CCCA78005482B0 /* NavAppLoseBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960638FC17CCCA78005482B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960638FD17CCCA78005482B0 /* UIKit.framework */,
+				960638FF17CCCA78005482B0 /* Foundation.framework */,
+				9606390117CCCA78005482B0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9606390317CCCA78005482B0 /* NavAppLoseBar */ = {
+			isa = PBXGroup;
+			children = (
+				9606391E17CCCCFD005482B0 /* UIElements */,
+				9606391A17CCCB4B005482B0 /* RootNav */,
+				9606390C17CCCA78005482B0 /* GAppDelegate.h */,
+				9606390D17CCCA78005482B0 /* GAppDelegate.m */,
+				9606390417CCCA78005482B0 /* Supporting Files */,
+			);
+			path = NavAppLoseBar;
+			sourceTree = "<group>";
+		};
+		9606390417CCCA78005482B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9606390517CCCA78005482B0 /* NavAppLoseBar-Info.plist */,
+				9606390617CCCA78005482B0 /* InfoPlist.strings */,
+				9606390917CCCA78005482B0 /* main.m */,
+				9606390B17CCCA78005482B0 /* NavAppLoseBar-Prefix.pch */,
+				9606390F17CCCA78005482B0 /* Default.png */,
+				9606391117CCCA78005482B0 /* Default@2x.png */,
+				9606391317CCCA78005482B0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9606391A17CCCB4B005482B0 /* RootNav */ = {
+			isa = PBXGroup;
+			children = (
+				9606391B17CCCB71005482B0 /* GRootNavController.h */,
+				9606391C17CCCB71005482B0 /* GRootNavController.m */,
+			);
+			name = RootNav;
+			path = Controller/RootNav;
+			sourceTree = "<group>";
+		};
+		9606391E17CCCCFD005482B0 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				9606391F17CCCD22005482B0 /* GMainControllerViewController.h */,
+				9606392017CCCD22005482B0 /* GMainControllerViewController.m */,
+				9606392117CCCD22005482B0 /* GMainControllerViewController.xib */,
+				9606392417CCCDB1005482B0 /* GFirstViewController.h */,
+				9606392517CCCDB1005482B0 /* GFirstViewController.m */,
+				9606392617CCCDB1005482B0 /* GFirstViewController.xib */,
+				9606392917CCCDD4005482B0 /* GPresentViewController.h */,
+				9606392A17CCCDD4005482B0 /* GPresentViewController.m */,
+				9606392B17CCCDD4005482B0 /* GPresentViewController.xib */,
+			);
+			name = UIElements;
+			path = Controller/UIElements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960638F917CCCA78005482B0 /* NavAppLoseBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9606391717CCCA78005482B0 /* Build configuration list for PBXNativeTarget "NavAppLoseBar" */;
+			buildPhases = (
+				960638F617CCCA78005482B0 /* Sources */,
+				960638F717CCCA78005482B0 /* Frameworks */,
+				960638F817CCCA78005482B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavAppLoseBar;
+			productName = NavAppLoseBar;
+			productReference = 960638FA17CCCA78005482B0 /* NavAppLoseBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960638F217CCCA78005482B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = G;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Onyx;
+			};
+			buildConfigurationList = 960638F517CCCA78005482B0 /* Build configuration list for PBXProject "NavAppLoseBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 960638F117CCCA78005482B0;
+			productRefGroup = 960638FB17CCCA78005482B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960638F917CCCA78005482B0 /* NavAppLoseBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960638F817CCCA78005482B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606390817CCCA78005482B0 /* InfoPlist.strings in Resources */,
+				9606391017CCCA78005482B0 /* Default.png in Resources */,
+				9606391217CCCA78005482B0 /* Default@2x.png in Resources */,
+				9606391417CCCA78005482B0 /* Default-568h@2x.png in Resources */,
+				9606392317CCCD22005482B0 /* GMainControllerViewController.xib in Resources */,
+				9606392817CCCDB1005482B0 /* GFirstViewController.xib in Resources */,
+				9606392D17CCCDD4005482B0 /* GPresentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960638F617CCCA78005482B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606390A17CCCA78005482B0 /* main.m in Sources */,
+				9606390E17CCCA78005482B0 /* GAppDelegate.m in Sources */,
+				9606391D17CCCB71005482B0 /* GRootNavController.m in Sources */,
+				9606392217CCCD22005482B0 /* GMainControllerViewController.m in Sources */,
+				9606392717CCCDB1005482B0 /* GFirstViewController.m in Sources */,
+				9606392C17CCCDD4005482B0 /* GPresentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9606390617CCCA78005482B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9606390717CCCA78005482B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9606391517CCCA78005482B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9606391617CCCA78005482B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9606391817CCCA78005482B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavAppLoseBar/NavAppLoseBar-Prefix.pch";
+				INFOPLIST_FILE = "NavAppLoseBar/NavAppLoseBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9606391917CCCA78005482B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavAppLoseBar/NavAppLoseBar-Prefix.pch";
+				INFOPLIST_FILE = "NavAppLoseBar/NavAppLoseBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960638F517CCCA78005482B0 /* Build configuration list for PBXProject "NavAppLoseBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9606391517CCCA78005482B0 /* Debug */,
+				9606391617CCCA78005482B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9606391717CCCA78005482B0 /* Build configuration list for PBXNativeTarget "NavAppLoseBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9606391817CCCA78005482B0 /* Debug */,
+				9606391917CCCA78005482B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960638F217CCCA78005482B0 /* Project object */;
+}
