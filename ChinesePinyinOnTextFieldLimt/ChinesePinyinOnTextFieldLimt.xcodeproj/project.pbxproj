@@ -299,6 +299,7 @@
 				96B97FDC17C871B400918311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
