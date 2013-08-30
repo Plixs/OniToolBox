@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GViewController : UIViewController <UITextFieldDelegate>
+@interface GViewController : UIViewController <UITextViewDelegate>
 
 @end

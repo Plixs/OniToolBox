@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965C305E17D039D200054BE0 /* UITextView+TextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 965C305D17D039D200054BE0 /* UITextView+TextInput.m */; };
 		96B97FBB17C871B400918311 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B97FBA17C871B400918311 /* UIKit.framework */; };
 		96B97FBD17C871B400918311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B97FBC17C871B400918311 /* Foundation.framework */; };
 		96B97FBF17C871B400918311 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B97FBE17C871B400918311 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		965C305C17D039D200054BE0 /* UITextView+TextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+TextInput.h"; sourceTree = "<group>"; };
+		965C305D17D039D200054BE0 /* UITextView+TextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+TextInput.m"; sourceTree = "<group>"; };
 		96B97FB717C871B400918311 /* ChinesePinyinOnTextFieldLimt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinesePinyinOnTextFieldLimt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B97FBA17C871B400918311 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96B97FBC17C871B400918311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		965C305B17D039C900054BE0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				965C305C17D039D200054BE0 /* UITextView+TextInput.h */,
+				965C305D17D039D200054BE0 /* UITextView+TextInput.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		96B97FAE17C871B400918311 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 		96B97FC017C871B400918311 /* ChinesePinyinOnTextFieldLimt */ = {
 			isa = PBXGroup;
 			children = (
+				965C305B17D039C900054BE0 /* Category */,
 				96B97FC917C871B400918311 /* GAppDelegate.h */,
 				96B97FCA17C871B400918311 /* GAppDelegate.m */,
 				96B97FD217C871B400918311 /* GViewController.h */,
@@ -177,6 +190,7 @@
 				96B97FC717C871B400918311 /* main.m in Sources */,
 				96B97FCB17C871B400918311 /* GAppDelegate.m in Sources */,
 				96B97FD417C871B400918311 /* GViewController.m in Sources */,
+				965C305E17D039D200054BE0 /* UITextView+TextInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
